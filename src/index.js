@@ -21,25 +21,33 @@ const App = () =>{
     const buttonText = 'clickme:';
 
     if (hours < 12) {
-    timeOfDay = "Morning"
+    
+        timeOfDay = "Morning" 
+   
    }
 
    else if(hours >= 12 && hours < 16){
+    
     timeOfDay = "Afternoon"
+    
    }
 
    else if(hours >= 16 && hours < 20){
+     
     timeOfDay = "Evening"
+    
    }
 
    else{
+     
     timeOfDay = "Night"
+    
    }
 
 
     return(
         <div >
-            <h1 style={{color:"greenyellow"}} >
+            <h1 style={{color:"teal"}}> 
                 Good {timeOfDay} to you !!!
             </h1>
         
